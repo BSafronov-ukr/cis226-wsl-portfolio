@@ -1,0 +1,8 @@
+# Local command history and sensitive files
+evidence.txt
+*.log
+*.key
+*.pem
+.env
+.env.*
+*.tar.gz
