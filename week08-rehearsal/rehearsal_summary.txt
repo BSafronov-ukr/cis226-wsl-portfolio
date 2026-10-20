@@ -1,0 +1,20 @@
+=== 1. Files ===
+total 8
+lrwxrwxrwx 1 labstudent otterstaff   19 Oct 20 02:23 live -> /srv/driftwood/site
+drwxr-x--- 2 labstudent otterstaff 4096 Oct 20 02:23 private
+drwxr-x--- 3 labstudent otterstaff 4096 Oct 20 02:23 site
+=== 2. Permissions ===
+total 4
+-rw------- 1 labstudent otterstaff 26 Oct 20 02:23 credentials.txt
+=== 3. Users ===
+uid=1001(intern) gid=1002(intern) groups=1002(intern),1001(otterstaff)
+=== 4. Processes ===
+USER         PID CMD
+=== 5. Services ===
+active
+* * * * * cd /srv && tar -czf $HOME/driftwood_backup.tar.gz driftwood/site && date >> $HOME/driftwood_cron.log
+=== 6. I/O ===
+Tue Oct 20 02:24:01 PDT 2026
+ 0 /home/labstudent/stdout_only.txt
+63 /home/labstudent/stderr_only.txt
+63 total
