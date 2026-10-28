@@ -1,0 +1,13 @@
+=== 1. Keys ===
+-rw------- 1 cis226 cis226 411 Oct 28 14:55 /home/cis226/.ssh/driftwood_key
+-rw-r--r-- 1 cis226 cis226 101 Oct 28 14:55 /home/cis226/.ssh/driftwood_key.pub
+
+=== 2. Server side ===
+-rw------- 1 intern intern 101 Oct 28 14:55 /home/intern/.ssh/authorized_keys
+LISTEN 0      128         127.0.0.1:2222      0.0.0.0:*   
+
+=== 3. Login as intern ===
+uid=1001(intern) gid=1002(intern) groups=1002(intern),1001(otterstaff)
+
+=== 4. Copy ===
+Identical - transfer verified
